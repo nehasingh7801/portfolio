@@ -1,9 +1,11 @@
+import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-
+import socials from "./components/socials";
 function App() {
   return (
     <div>
-     <Navbar/>
+      <Navbar /> 
+     <Home />
     </div>
   );
 }
