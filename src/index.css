@@ -5,8 +5,36 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-  html{
+@layer base {
+  html {
     font-family: 'Raleway', sans-serif;
   }
+}
+
+@layer utilities {
+  .bg-custom-beige {
+    background-color: #f7f7f0;
+    /* Beige color */
+  }
+
+  .portfolio-section {
+    background-color: #f8f8f0; /* Beige color */
+  }
+  .break-words {
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+
+/* Portfolio.css */
+
+.break-words {
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+  
+
 }

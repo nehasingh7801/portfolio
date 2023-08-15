@@ -28,7 +28,7 @@ const links=[
 ]
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed ">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-white fixed z-20">
         <div>
             <h1 className="text-5xl font-signature ml-2 font-weight: 700">neha.</h1>
         </div>
