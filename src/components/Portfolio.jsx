@@ -23,6 +23,14 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      headingText: 'AWS',
+      introText: 'Amazon Web Services Certified Solutions Architect - Associate certification [SAA-C03]',
+      src: kyc,
+      hasDemo: false,
+      codeLink: 'https://www.credly.com/badges/b8c797b4-3992-423a-816f-72789c693e7b/linked_in_profile',
+    },
+    {
+      id: 3,
       headingText: 'CMS',
       introText: 'A platform for bloggers to manage their profiles and interact with various aspects of a blogging system in PHP',
       src: kyc,
@@ -74,10 +82,10 @@ const Portfolio = () => {
               className={`shadow-md ${index % 2 === 0 ? 'bg-black' : 'bg-white border-solid border-2 border-black'} ${index % 2 === 0 ? 'text-white' : 'text-black'}`}
               style={{ boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.1)' }}
             >
-              <div className="p-4"> {/* Add padding */}
+              <div className="p-4"> 
                 <div className="text-center overflow-hidden whitespace-nowrap overflow-ellipsis text-lg md:text-lg lg:text-xl xl:text-2xl font-bold relative">
-                  <h3 className="break-words">{headingText}</h3> {/* Add break-words class */}
-                  <div className="border-b-2 border-gray-500 absolute left-1/4 right-1/4 bottom-0"></div>
+                  <h3 className="break-words eb-garamond">{headingText}</h3> {/* Add break-words class */}
+                  <div className="absolute left-1/4 right-1/4 bottom-0"></div>
                 </div>
                 <div className="text-center">
                   <p className="text-sm md:text-base lg:text-md py-4">{introText}</p> {/* Remove px-6 for better readability */}

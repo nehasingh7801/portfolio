@@ -76,13 +76,14 @@ const Skills = () => {
   ];
 
   return (
-    <div name="skills" className="bg-black min-h-screen flex flex-col justify-center items-center">
-      <div className="w-full py-4 text-white max-w-screen-lg">
-        <div className="mb-8">
-          <p className="text-4xl font-bold  p-2 inline-block">
-            Skills
-          </p>
-          <p className="py-2">These are the technologies I've worked with</p>
+    <div
+      name="skills"
+      className="bg-black min-h-screen flex flex-col justify-center items-center p-4"
+    >
+      <div className="w-full py-2 text-white max-w-screen-lg">
+        <div className="mb-4">
+          <p className="text-4xl font-bold p-2 inline-block">Skills</p>
+          <p className="pt-1">These are the technologies I've worked with</p>
         </div>
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8 text-center">
@@ -98,10 +99,8 @@ const Skills = () => {
             </div>
           ))}
         </div>
-
-          
+      </div>
     </div>
-    </div >
   );
 };
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import Video from '../assets/nehavideo.mp4';
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
           A tech enthusiast, weaving her narrative into the tapestry of urban dreams at 22.
         </p>
         <div className="flex justify-center">
-          <button
+          <Link
             to="portfolio"
             smooth
             duration={500}
@@ -25,7 +26,7 @@ const Home = () => {
             <span className="group-hover:rotate-90 duration-300">
               <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </div>

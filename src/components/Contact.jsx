@@ -2,12 +2,12 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="contact-section bg-white min-h-screen">
+    <div className="contact-section bg-custom-beige">
       <div name="contact" className="w-full h-full p-4 text-black">
         <div className="max-w-screen-lg mx-auto">
           <div className="pb-8">
-            <p className="text-4xl font-bold bg-white">
-              hit me up
+            <p className="text-4xl font-bold bg-custom-beige eb-garamond">
+              hit me up!
             </p>
             <p className="py-2">questions? tips? recommendations? just wanna say hi?</p>
           </div>

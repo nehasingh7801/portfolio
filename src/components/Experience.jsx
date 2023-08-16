@@ -11,7 +11,7 @@ function Experience() {
         <div className="experience-section" name="experience">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div>
-                    <p className="text-4xl font-bold ">Experience</p>
+                    <p className="text-4xl font-bold">Experience</p>
                     <p className="py-2">My Education and Work Experience</p>
                 </div>
                 <VerticalTimeline lineColor="#000000">                    
