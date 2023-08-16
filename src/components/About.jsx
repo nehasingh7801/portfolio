@@ -28,7 +28,7 @@ const About = () => {
 
             <p>
             I am constantly stimulated by curiosity and a passion for innovation. 
-            with a solid foundation in programming languages like Java and Python, coupled with expertise in data manipulation,
+            With a solid foundation in programming languages like Java and Python, coupled with expertise in data manipulation,
              visualization, and machine learning, I craft solutions that turn data into insights. 
              I've ventured into the realm of cloud technology and hold the esteemed title of an AWS Certified Solutions Architect. 
              I thrive in collaborative environments, evident through my internship experiences in both software development and data science, where I've contributed to real-world projects. 
