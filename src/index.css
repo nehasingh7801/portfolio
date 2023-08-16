@@ -24,7 +24,12 @@
   word-wrap: break-word;
   hyphens: auto;
 }
-
+.experience-section{
+  background-color: #f8f8f0;
+}
+.bg-custom-gray {
+  background-color: #ece5e5;
+}
 
 
 /* Portfolio.css */

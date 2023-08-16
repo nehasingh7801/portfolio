@@ -3,6 +3,10 @@ import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -11,6 +15,10 @@ function App() {
       <Socials/>
       <About/>
       <Portfolio/>
+      <Experience/>
+      <Skills/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
